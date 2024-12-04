@@ -1,0 +1,108 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "ac67",
+      "name": "chetana",
+      "position": "FSD",
+      "department": "IT",
+      "contact": "9986785422",
+      "email": "chetana@hcl.com",
+      "username": "chetana",
+      "password": "chetana123",
+      "image": "/images/pexels-photo-1065084.jpeg",
+      "role": "employee"
+    },
+    {
+      "id": "92eb",
+      "name": "praful",
+      "position": "Java Developer",
+      "department": "IT",
+      "contact": "9742339175",
+      "email": "praful@gmail.com",
+      "username": "praful07",
+      "password": "praful123",
+      "image": "/images/pexels-photo-837306.jpeg",
+      "role": "employee"
+    },
+    {
+      "id": "b34f",
+      "name": "anika",
+      "position": "Software Engineer",
+      "department": "Development",
+      "contact": "9845123456",
+      "email": "anika@company.com",
+      "username": "anika_dev",
+      "password": "anika@123",
+      "image": "/images/pexels-photo-91227.jpeg",
+      "role": "employee"
+    },
+    {
+      "id": "c45g",
+      "name": "rohit",
+      "position": "Product Manager",
+      "department": "Management",
+      "contact": "9876543210",
+      "email": "rohit@company.com",
+      "username": "rohit_pm",
+      "password": "rohit#456",
+      "image": "/images/pexels-photo-712513.jpeg",
+      "role": "employee"
+    },
+    {
+      "id": "d56h",
+      "name": "sneha",
+      "position": "UX Designer",
+      "department": "Design",
+      "contact": "9123456789",
+      "email": "sneha@company.com",
+      "username": "sneha_ux",
+      "password": "sneha!123",
+      "image": "/images/pexels-photo-713312.jpeg",
+      "role": "employee"
+    },
+    {
+      "id": "e67i",
+      "name": "vikram",
+      "position": "DevOps Engineer",
+      "department": "Operations",
+      "contact": "9998877665",
+      "email": "vikram@company.com",
+      "username": "vikram_devops",
+      "password": "vikram*789",
+      "image": "/images/pexels-photo-733872.jpeg",
+      "role": "employee"
+    },
+    {
+      "id": "15b6",
+      "name": "sahana",
+      "position": "Java ",
+      "department": "Developer",
+      "contact": "9986182362",
+      "email": "sahana@gmail.com",
+      "username": "sahana",
+      "password": "sahana123",
+      "image": "/images/pexels-photo-1212984.jpeg",
+      "role": "employee"
+    },
+    {
+      "id": "b7f7",
+      "name": "Aarushi",
+      "position": "developer",
+      "department": "It",
+      "contact": "99878987",
+      "email": "aarushi@a.com",
+      "username": "aarushi",
+      "password": "aarushi123",
+      "image": "/images/pexels-photo-837306.jpeg",
+      "role": "employee"
+    }
+  ]
+}

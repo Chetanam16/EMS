@@ -1,0 +1,75 @@
+.container {
+    background-color: black; 
+    color: #5dd62c; 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .container h2 {
+    color: #5dd62c; 
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+  }
+  .employee-image img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 20%;
+    margin-left: 10px;
+
+    object-fit: cover;
+  }
+  .header-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+
+  mat-card {
+    width:100%;
+    background-color: #333; 
+    color: #5dd62c; 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  mat-card-header {
+  
+    border-bottom: 2px solid #5dd62c; 
+  }
+  
+  mat-card-title {
+    color: #5dd62c; 
+  }
+  
+  mat-card-subtitle {
+    color: #5dd62c; 
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  mat-form-field .mat-label {
+    color: #5dd62c; 
+  }
+  
+  mat-form-field .mat-input-element {
+    color: #5dd62c; 
+    background-color: black; 
+  }
+  
+  mat-form-field input[disabled] {
+    background-color: #333; 
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px; 
+    }
+  
+    mat-card {
+      padding: 10px; 
+    }
+  }
+  

@@ -1,0 +1,93 @@
+.home-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .home-header {
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #5dd62c;
+    border-radius: 8px;
+  }
+  
+  .home-header mat-card-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-header mat-card-content p {
+    font-size: 1.2rem;
+  }
+  
+  .features-section {
+    margin-top: 20px;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #337418;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+  }
+  
+  .feature-card {
+    border-radius: 8px;
+    background-color: #333;
+    color:#5dd62c;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  mat-card-actions button{
+    margin:5px;
+    background-color: #5dd62c;
+    color:black;
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .announcements-section {
+    margin-top: 40px;
+  }
+  
+  .announcements-section h2 {
+    text-align: center;
+    color: #337418;
+    margin-bottom: 20px;
+  }
+  
+  .announcement-card {
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #5dd62c;
+  }
+  
+  .contact-section {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #5dd62c;
+  }
+  
+  .contact-card {
+    padding: 20px;
+    background-color: #000;
+    color: #5dd62c;
+  }
+  
+  .home-footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    background-color: #000;
+    color: #5dd62c;
+  }
+  

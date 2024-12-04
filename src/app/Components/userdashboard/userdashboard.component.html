@@ -1,0 +1,48 @@
+<div class="container">
+    <h2>User Dashboard</h2>
+    <br>
+  
+    <mat-card *ngIf="currentEmployee">
+      <mat-card-header class="header-start">
+        <div class="employee-image">
+          <img mat-card-image [src]="currentEmployee?.image" alt="{{ currentEmployee?.name }}" />
+        </div>
+  
+        <mat-card-title>{{ currentEmployee?.name }}</mat-card-title>
+        <mat-card-subtitle>{{ currentEmployee?.position }}</mat-card-subtitle>
+      </mat-card-header>
+  
+      <mat-card-content>
+        <div *ngIf="employeeForm">
+          <form [formGroup]="employeeForm">
+  
+            <mat-form-field appearance="fill">
+              <mat-label>Name</mat-label>
+              <input matInput formControlName="name" [disabled]="true" />
+            </mat-form-field>
+  
+            <mat-form-field appearance="fill">
+              <mat-label>Position</mat-label>
+              <input matInput formControlName="position" [disabled]="true" />
+            </mat-form-field>
+  
+            <mat-form-field appearance="fill">
+              <mat-label>Department</mat-label>
+              <input matInput formControlName="department" [disabled]="true" />
+            </mat-form-field>
+  
+            <mat-form-field appearance="fill">
+              <mat-label>Contact</mat-label>
+              <input matInput formControlName="contact" [disabled]="true" />
+            </mat-form-field>
+  
+            <mat-form-field appearance="fill">
+              <mat-label>Email</mat-label>
+              <input matInput formControlName="email" [disabled]="true" />
+            </mat-form-field>
+          </form>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

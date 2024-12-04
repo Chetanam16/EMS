@@ -1,0 +1,55 @@
+<h2 mat-dialog-title>{{ employeeForm.get('id')?.value ? 'Edit Employee' : 'Add Employee' }}</h2>
+<mat-dialog-content>
+  <form [formGroup]="employeeForm">
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Position</mat-label>
+      <input matInput formControlName="position" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Department</mat-label>
+      <input matInput formControlName="department" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Contact</mat-label>
+      <input matInput formControlName="contact" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>UserName</mat-label>
+      <input matInput formControlName="username" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput formControlName="password" required>
+    </mat-form-field>
+    <div>
+        <input
+          type="file"
+          accept="image/*"
+          (change)="onImageSelected($event)"
+          id="file-input"
+          hidden
+        />
+        <button
+          mat-raised-button
+          color="primary"
+          type="button"
+          (click)="triggerFileInput()"
+        >
+          Choose Image
+        </button>
+        <p *ngIf="selectedImage">Selected file: {{ selectedImage.name }}</p>
+      </div>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button (click)="onSave()">Save</button>
+</mat-dialog-actions>

@@ -1,0 +1,97 @@
+<div class="home-container">
+    <mat-card class="home-header">
+      <mat-card-title>Welcome to the Employee Management System</mat-card-title>
+      <mat-card-content>
+        <p>Your one-stop solution for managing employee data efficiently and securely.</p>
+      </mat-card-content>
+    </mat-card>
+  
+    <section class="features-section">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <mat-card class="feature-card">
+          <mat-card-title>Employee Records</mat-card-title>
+          <mat-card-content>
+            <p>Store, update, and manage employee details such as name, position, department, and more.</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button  >Learn More</button>
+          </mat-card-actions>
+        </mat-card>
+  
+        <mat-card class="feature-card">
+          <mat-card-title>Role-Based Access</mat-card-title>
+          <mat-card-content>
+            <p>Admins and employees have different levels of access for secure operations.</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button color="primary">Learn More</button>
+          </mat-card-actions>
+        </mat-card>
+  
+        <mat-card class="feature-card">
+          <mat-card-title>Real-Time Updates</mat-card-title>
+          <mat-card-content>
+            <p>Instantly view changes and updates across the system for better collaboration.</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button >Learn More</button>
+          </mat-card-actions>
+        </mat-card>
+  
+        <mat-card class="feature-card">
+          <mat-card-title>Analytics Dashboard</mat-card-title>
+          <mat-card-content>
+            <p>Track employee performance and generate real-time reports to make informed decisions.</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button >Learn More</button>
+          </mat-card-actions>
+        </mat-card>
+  
+        <mat-card class="feature-card">
+          <mat-card-title>Employee Self-Service</mat-card-title>
+          <mat-card-content>
+            <p>Employees can view and update their personal details and request leaves online.</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button >Learn More</button>
+          </mat-card-actions>
+        </mat-card>
+  
+        <mat-card class="feature-card">
+          <mat-card-title>Automated Notifications</mat-card-title>
+          <mat-card-content>
+            <p>Receive automated email and SMS alerts for important employee updates and events.</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button >Learn More</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </section>
+  
+    <section class="announcements-section">
+      <h2>Latest Announcements</h2>
+      <mat-card class="announcement-card" *ngFor="let announcement of announcements">
+        <mat-card-title>{{ announcement.title }}</mat-card-title>
+        <mat-card-content>{{ announcement.content }}</mat-card-content>
+      </mat-card>
+    </section>
+  
+    <section class="contact-section">
+      <mat-card class="contact-card">
+        <mat-card-title>Contact Us</mat-card-title>
+        <mat-card-content>
+          <p>For any queries or support, please reach out to our team:</p>
+          <p>Email: support.com</p>
+          <p>Phone: +1 234 567 890</p>
+        </mat-card-content>
+      </mat-card>
+    </section>
+  
+    <footer class="home-footer">
+      <p>&copy; 2024 Employee Management System. All rights reserved.</p>
+    </footer>
+  </div>
+  
